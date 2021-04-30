@@ -1,0 +1,12 @@
+[package]
+name = "phyi-vy"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# Uses `glamifiedphysics` when used locally, and uses
+# version 1.0 from crates.io when published.
+glamifiedphysics = { path = "glamifiedphysics", version = "1.0" }
+bevy = "0.5"
